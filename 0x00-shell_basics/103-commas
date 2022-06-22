@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -a -p -m | sort
-echo ''
+ls -a -p -m | sort | sed G
