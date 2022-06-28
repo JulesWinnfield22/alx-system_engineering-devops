@@ -1,0 +1,5 @@
+msg=$0
+echo "${msg}"
+git add .
+git commit -m "${msg}"
+git push https://JulesWinnfield22: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@github.com/JulesWinnfield22/alx-system_engineering-devops.git
