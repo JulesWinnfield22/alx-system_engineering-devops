@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1 | cat -n | tr -d ' ' | grep -E '^[13579]' | tr -d [:digit:] | tr -d '\t'
